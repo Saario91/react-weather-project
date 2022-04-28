@@ -41,6 +41,7 @@ export default function Weather(props){
         setCity(event.target.value);
     }
     if(weatherData.ready){
+        console.log('using the forecast function in Weather.js');
         return(
             <div className='Weather'>
                 <form onSubmit={handleSubmit}>

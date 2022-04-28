@@ -23,6 +23,7 @@ export default function WeatherIcon(props){
         '50n': 'WIND'
 
     }
+    //console.log(`The size is: ${props.size}`);
     return(
         <div className='WeatherIcon'>
             <ReactAnimatedWeather
