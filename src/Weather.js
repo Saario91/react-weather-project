@@ -22,6 +22,10 @@ export default function Weather(props){
             date:           new Date(response.data.dt*1000),
             ready:          true
         });
+
+        let coordinates = {
+            lat: response.data
+        }
     }
     function search(){
         const APIkey = '503764422e28613a3aa4cb8119955a59';
